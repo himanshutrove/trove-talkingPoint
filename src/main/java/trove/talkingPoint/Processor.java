@@ -142,6 +142,7 @@ public class Processor {
 		locationmap.put("USA", 23424977);
 		locationmap.put("UK", 23424975);
 		locationmap.put("canada", 23424775);
+		locationmap.put("WorldWide", 1);
 
 	}
 
