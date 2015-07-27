@@ -60,10 +60,10 @@ public class TweetFetcher {
 	public static void configure() {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true);
-		cb.setOAuthConsumerKey("bv3KCtOzqHkByCrAcA42gg70L");
-		cb.setOAuthConsumerSecret("o0PMOMmcNahgONOrDVejtwmHVZJJK2KJpm9V3HEXntQDARvp92");
-		cb.setOAuthAccessToken("142042282-jpVEdr37JbHsM0U83a3MoataS846wE6yTtSYJJgI");
-		cb.setOAuthAccessTokenSecret("6FGNGDPDCx4N6LUadMqcV6S2MnxxINnoaXqFoLWfkNdy4");
+		cb.setOAuthConsumerKey("comsumerKEy");
+		cb.setOAuthConsumerSecret("consumerSecret");
+		cb.setOAuthAccessToken("accesstoke");
+		cb.setOAuthAccessTokenSecret("tokensecret");
 
 		TwitterFactory tf = new TwitterFactory(cb.build());
 		twitter = tf.getInstance();
